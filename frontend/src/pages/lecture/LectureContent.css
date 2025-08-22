@@ -1,0 +1,180 @@
+.reading-lecture {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reading-content {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin: 20px 0;
+}
+
+.quiz-lecture {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-description {
+  margin: 15px 0;
+  color: #666;
+}
+
+.quiz-questions {
+  margin: 20px 0;
+}
+
+.quiz-question {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.quiz-question h3 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background: white;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.option:hover {
+  background: #f0f0f0;
+}
+
+.option input[type="radio"] {
+  margin: 0;
+}
+
+.option label {
+  flex: 1;
+  cursor: pointer;
+}
+
+.result-indicator {
+  font-weight: bold;
+  padding: 0 8px;
+}
+
+.result-indicator.correct {
+  color: #4CAF50;
+}
+
+.result-indicator.incorrect {
+  color: #f44336;
+}
+
+.quiz-results {
+  margin-top: 30px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.score {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.pass-message {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.fail-message {
+  color: #f44336;
+}
+
+.mark-complete-btn,
+.submit-quiz-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 16px;
+}
+
+/* Video lecture styling */
+.video-lecture {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.video-lecture video {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Common lecture elements */
+.lecture-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background: #2196F3;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+  background: #1976D2;
+}
+
+.nav-button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+/* Progress indicator */
+.progress-indicator {
+  margin: 20px 0;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #4CAF50;
+  transition: width 0.3s ease;
+}

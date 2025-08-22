@@ -1,0 +1,224 @@
+.manage-lectures {
+  padding: 20px;
+}
+
+.manage-lectures .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-btn {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-btn:hover {
+  background-color: #45a049;
+}
+
+.lectures-list {
+  margin-top: 20px;
+}
+
+.lecture-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.lecture-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex: 1;
+}
+
+.lecture-number {
+  width: 30px;
+  height: 30px;
+  background: #f0f0f0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.lecture-details h3 {
+  margin: 0 0 5px 0;
+}
+
+.lecture-details p {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.lecture-type {
+  display: inline-block;
+  padding: 3px 8px;
+  background: #e0e0e0;
+  border-radius: 12px;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.lecture-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.delete-btn {
+  padding: 8px 16px;
+  background-color: #ff4444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+  background-color: #ff1111;
+}
+
+.no-lectures {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}
+
+.add-lecture {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.add-lecture h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.quiz-section {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 4px;
+}
+
+.quiz-question {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+.quiz-question h4 {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.option-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 10px;
+}
+
+.option-row input[type="text"] {
+  flex: 1;
+}
+
+.option-row input[type="radio"] {
+  margin: 0 8px;
+}
+
+.add-question-btn,
+.remove-btn,
+.submit-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.add-question-btn {
+  background-color: #4CAF50;
+  color: white;
+  margin-top: 10px;
+}
+
+.remove-btn {
+  background-color: #ff4444;
+  color: white;
+  margin-top: 10px;
+}
+
+.submit-btn {
+  background-color: #2196F3;
+  color: white;
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.submit-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.add-question-btn:hover {
+  background-color: #45a049;
+}
+
+.remove-btn:hover {
+  background-color: #ff1111;
+}
+
+.submit-btn:hover:not(:disabled) {
+  background-color: #1976D2;
+}
